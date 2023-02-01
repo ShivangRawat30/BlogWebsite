@@ -13,11 +13,23 @@
         flex-direction: column;
         /* width: 50%; */
     }
+    .nav-left ul {
+        margin-top: 20px;
+    }
     .nav-left img{
-        margin-left: 55vw;
+        transform: translateX(225px);
     }
     .nav-right{
         width: 50%;
+    }
+    .form-input{
+        /* transform: translate(-40px); */
+        margin: 0;
+        width: 40vw;
+    }
+    .btn{
+        transform: translate(55px);
+        margin-top: 10px;
     }
     .content-right{
         text-align: center;
@@ -75,7 +87,7 @@
         align-items: center;
     }
     .footer{
-        padding-left: 5%;
-        width: 120%
+        width: 120%;
+        transform: translate(-40px);
     }
 }

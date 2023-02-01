@@ -1,5 +1,5 @@
 :root{
-    --main-bg-color: pink;
+    --main-bg-color: rgb(41, 90, 73);
 }
 .max-width-1{
     max-width: 80vw;
